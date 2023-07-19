@@ -22,7 +22,7 @@ python traincGan.py
 
 ## Reverse Classification using Trained cGAN
 
-After training the cGAN, you can perform reverse classification using the `ReverseG` class provided in the `ReverseG.py` file. This class can be used to classify input images based on the trained cGAN model.
+After training the cGAN, you can perform reverse classification using the `ReverseG` class provided in the `classifiying.py` file. This class can be used to classify input images based on the trained cGAN model.
 
 ## Training Substitute Model for Blackbox Attack
 
