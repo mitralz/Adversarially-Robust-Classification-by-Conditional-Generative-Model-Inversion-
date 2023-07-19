@@ -22,11 +22,11 @@ python traincGan.py
 
 ## Reverse Classification using Trained cGAN
 
-After training the cGAN, you can perform reverse classification using the `ReverseG` class provided in the `classifiying.py` file. This class can be used to classify input images based on the trained cGAN model.
+After training the cGAN, you can perform reverse classification using the `ReverseG` class provided in the `classifiying.py` file. This script can be used to classify input images based on the trained cGAN model.
 
 ## Training Substitute Model for Blackbox Attack
 
-To train a substitute model for blackbox attack, use the `sub_model_train.py` script. TYou need to specify the dataset path, and other hyperparameters within the script.
+To train a substitute model for blackbox attack, use the `sub_model_train.py` script. You need to specify the dataset path, and other hyperparameters within the script.
 
 ```bash
 python sub_model_train.py
